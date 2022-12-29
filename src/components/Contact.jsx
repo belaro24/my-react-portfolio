@@ -11,7 +11,7 @@ const Contact = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Contact
           </p>
-          <p className="py-6">Submit the form below to get in touch with me</p>
+          <p className="py-6">Submit the form below to get in touch with me. Thank you :)</p>
         </div>
 
         <div className=" flex justify-center items-center">
@@ -40,7 +40,7 @@ const Contact = () => {
             ></textarea>
 
             <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
-              Let's talk
+              Submit
             </button>
           </form>
         </div>

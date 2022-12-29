@@ -9,13 +9,7 @@ const About = () => {
                         About
                     </p>
                 </div>
-                <p className=' text-xl mt-20'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo minus iste veniam ipsa! Officiis ipsam asperiores, quam sunt modi eaque sed reprehenderit harum nam consequuntur porro incidunt magni nobis, possimus natus rem debitis ratione, laborum provident! Illum vero maiores accusantium quis aperiam, iusto eius omnis cum aut dolore ea? Dolorem?
-                </p>
-
-                <br />
-
-                <p className=' text-xl'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione exercitationem porro accusamus doloribus quae ad iusto velit beatae ipsa quos reprehenderit placeat facere mollitia eaque consequuntur tempora quo, tempore consectetur deserunt voluptatibus amet ut. Ex consequatur cupiditate, recusandae minus iure ea tempora tempore. Tempora molestias debitis libero aut doloremque. Nam.
+                <p className=' text-xl mt-10 indent-5 text-justify'>An ACT Graduate, looking for a job in a good and reputable company to put the knowledge and skills I have learned through experience and training provided by our institution into practice, to develop new abilities that will aid me in my future career, and to be efficient about the position I am applying for.
                 </p>
             </div>
 
