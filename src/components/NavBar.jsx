@@ -80,10 +80,10 @@ const NavBar = () => {
             </div>
 
             {nav && (
-                <div className='flex justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to bg-gray-800 text-gray-500'>
-                <ul className='flex flex-col items-center '>
+                <div className='flex justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to bg-gray-800 text-gray-500 md:hidden'>
+                <ul className='flex flex-col items-center -mt-20'>
                     {links.map(({ id, link }) => (
-                        <li key={id} className='px-4 cursor-pointer capitalize py-6 text-4xl'>
+                        <li key={id} className='px-4  cursor-pointer capitalize py-6 text-4xl'>
                             <Link
                                 onClick={() => setNav(!nav)}
                                 to={link}
@@ -94,9 +94,9 @@ const NavBar = () => {
                     ))}
                     
                 </ul>
-                <ul className='flex flex-row absolute'>
+                <ul className='flex flex-row absolute mt-96 '>
                 {Social.map(({ id, child, href, style, download }) => (
-                    <li key={id} className={' flex flex-row items-center w-full h-16 my-2 px-4 mt-96 pt-20 text-md ' +
+                    <li key={id} className={' flex flex-row items-center w-full h-16 my-2 px-4  text-md ' +
                      " " + style}  >
                         <a href={href} className='items-center w-full text-gray-300'
                             download={download}
