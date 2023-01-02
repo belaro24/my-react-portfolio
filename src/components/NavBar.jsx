@@ -64,23 +64,23 @@ const NavBar = () => {
     ];
 
     return (
-        <div className='flex justify-between items-center w-full h-20 text-white bg-black fixed px-4'>
+        <div className='flex justify-between items-center w-full h-20 text-white bg-[#304352] fixed px-4'>
             <div>
                 <h1 className='text-5xl ml-2 font-signature'>iRoj</h1>
             </div>
             <ul className="hidden md:flex">
                 {links.map(({ id, link }) => (
-                    <li key={id} className='px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200'>
+                    <li key={id} className='px-4 cursor-pointer capitalize font-medium text-gray-200 hover:scale-105 duration-200'>
                         <Link to={link} smooth duration={500}>{link}</Link>
                     </li>
                 ))}
             </ul>
-            <div onClick={() => setNav(!nav)} className='cursor-pointer pr-4 z-10 text-gray-500 md:hidden'>
+            <div onClick={() => setNav(!nav)} className='cursor-pointer pr-4 z-10 text-gray-200 md:hidden'>
                 {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
             </div>
 
             {nav && (
-                <div className='flex justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to bg-gray-800 text-gray-500 md:hidden'>
+                <div className='flex justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-[#D7D2CC] to bg-[#304352] text-gray-200 md:hidden'>
                 <ul className='flex flex-col items-center -mt-20'>
                     {links.map(({ id, link }) => (
                         <li key={id} className='px-4  cursor-pointer capitalize py-6 text-4xl'>
